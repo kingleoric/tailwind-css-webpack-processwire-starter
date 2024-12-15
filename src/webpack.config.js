@@ -63,8 +63,8 @@ const config = {
     ],
   },
   watchOptions: {
-    ignored: path.resolve(__dirname, "../site/templates/assets/*.json"),
-  },
+    ignored: "../site/templates/assets/*.json",
+  },  
   devServer: {
     host: process.env.DEV_HOST,
     port: parseInt(process.env.DEV_PORT),
